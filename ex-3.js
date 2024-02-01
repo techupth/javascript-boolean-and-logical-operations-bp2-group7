@@ -1,9 +1,10 @@
-//Exercise #3: Debugging (Boolean & Logical Operations)
+// Exercise #2: Promotion Conditions
 
-//Start coding here
-const numberA = 100;
-const numberB = "20";
+// Start coding here
+let numberA = 100;
+let numberB = "20";
 
 numberA = 10;
+numberB = Number(numberB)
 
 console.log(`Sum: ${numberA + numberB}`);
